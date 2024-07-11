@@ -1,0 +1,32 @@
+﻿<h3>Cartao</h3>
+@page "/Cartao"
+@rendermode InteractiveServer
+
+<PageTitle>Inserir</PageTitle>
+<h1>Inserindo dados no cartão vazio</h1>
+<label> Digite o Banco do cartão: </label>
+<p> <input @bind="banco" /> </p>
+<label> Digite o número do cartão: </label>
+<p> <input @bind="numCartao" /> </p
+<label> Digite o nome do titular do cartão: </label>
+<p> <input @bind="nome" /> </p>
+<label> Digite a bandeira do cartão: </label>
+<p> <input @bind="bandeira" /> </p>
+
+<div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Cartão:</h5>
+    <p class="card-text"><code>Cartão:</code> @banco</p>
+    <p class="card-text"><code>Número cartão:</code> @numCartao</p>
+    <p class="card-text"><code>Titular do cartão:</code> @nome </p>
+    <p class="card-text"><code>Bandeira:</code> @bandeira </p>
+    <a class="btn btn-primary">Gerar</a>
+  </div>
+</div>
+
+@code { private string banco { get; set; }
+    private string numCartao { get; set; }
+    private string nome { get; set; }
+    private string bandeira { get; set; }
+}

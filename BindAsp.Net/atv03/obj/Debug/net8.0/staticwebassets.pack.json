@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\POO\\atv03\\atv03\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\atv03.bundle.scp.css",
+      "PackagePath": "staticwebassets\\atv03.bundle.scp.css"
+    },
+    {
+      "Id": "H:\\POO\\atv03\\atv03\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "H:\\POO\\atv03\\atv03\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\POO\\atv03\\atv03\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\POO\\atv03\\atv03\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.atv03.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.atv03.props",
+      "PackagePath": "build\\atv03.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.atv03.props",
+      "PackagePath": "buildMultiTargeting\\atv03.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.atv03.props",
+      "PackagePath": "buildTransitive\\atv03.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

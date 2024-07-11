@@ -1,0 +1,29 @@
+﻿<h3>Bind</h3>
+@page "/Bind"
+@rendermode InteractiveServer
+
+<PageTitle>Vinculação de Dados</PageTitle>
+<h1>Vinculação de Dados</h1>
+<label> Digite o Banco do cartão: </label>
+<p> <input @bind="banco" /> </p>
+<label> Digite o número do cartão: </label>
+<p> <input @bind="numCartao" /> </p
+    <label> Digite o nome do titular do cartão: </label>
+<p> <input @bind="numCartao" /> </p>
+ <label> Digite a bandeira do cartão: </label>
+<p> <input @bind="bandeira" /> </p>
+<ul>
+<li><code>nome do banco:</code> @banco</li>
+<li><code>número cartão:</code> @numCartao</li>
+ <li><code>nome do titular do cartão:</code> @nome </li>
+  <li><code>bandeira do cartão:</code> @bandeira </li>
+
+</ul>
+@code { private string banco { get; set; }
+
+private string numCartao { get; set; }
+private string nome { get; set; }
+private string bandeira { get; set; }
+
+
+}
